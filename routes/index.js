@@ -2,7 +2,7 @@
  * @Date         : 2023-08-09 14:44:21
  * @Author       : BDFD,bdfd2005@gmail.com
  * @Github       : https://github.com/bdfd
- * @LastEditTime : 2023-08-09 15:08:47
+ * @LastEditTime : 2023-08-09 15:24:46
  * @LastEditors  : BDFD
  * @Description  :
  * @FilePath     : \routes\index.js
@@ -19,15 +19,18 @@ var fs = require("fs");
 //comments: set up home page layout
 /* GET home page. */
 router.get("/", function (req, res, next) {
-	res.render("index", { page: "Home", menuId: "home" });
+	res.render("index", { page: "Index", menuId: "index" });
 });
 
-router.get("/about", function (req, res, next) {
-	res.render("about", { page: "About Us", menuId: "about" });
+router.get("/course", function (req, res, next) {
+	res.render("course", { page: "Key Courses", menuId: "key-courses" });
 });
 
-router.get("/contact", function (req, res, next) {
-	res.render("contact", { page: "Contact Us", menuId: "contact" });
+router.get("/whyus", function (req, res, next) {
+	res.render("whyus", {
+		page: "Why Learn with us",
+		menuId: "why-learn-with-us",
+	});
 });
 
 //router address localhost:3000/test
