@@ -2,7 +2,7 @@
  * @Date         : 2023-08-09 14:44:21
  * @Author       : BDFD,bdfd2005@gmail.com
  * @Github       : https://github.com/bdfd
- * @LastEditTime : 2023-08-09 17:19:14
+ * @LastEditTime : 2023-08-09 17:58:02
  * @LastEditors  : BDFD
  * @Description  :
  * @FilePath     : \routes\index.js
@@ -19,15 +19,15 @@ var fs = require("fs");
 //comments: set up home page layout
 /* GET home page. */
 router.get("/", function (req, res, next) {
-	res.render("index", { page: "Index", menuId: "index" });
+	res.render("index", {
+		page: "Home",
+		menuId: "home",
+		layout: "layouts/index_layout",
+	});
 });
 
 router.get("/index", function (req, res, next) {
-	res.render("index2", {
-		page: "Index",
-		menuId: "index",
-		layout: "layouts/index_layout",
-	});
+	res.render("index2", { page: "Index", menuId: "index" });
 });
 
 router.get("/course", function (req, res, next) {
