@@ -1,21 +1,25 @@
 <!--
  * @Author: BDFD
- * @Date: 2022-02-03 15:41:35
- * @LastEditTime: 2022-02-03 15:50:53
+ * @Date: 2022-02-03 12:27:46
+ * @LastEditTime: 2022-02-03 12:36:44
  * @LastEditors: BDFD
  * @Description:
- * @FilePath: \Heroku_Python_Template\README.md
+ * @FilePath: \Heroku_Node.js_Template\README.md
 -->
 
-# Build Simple Website with Python, Flask & HTML view engine
+# Build Simple Website with NodeJS, Express & EJS view engine
 
 ## Document
 
-- Install dependencies using python package manager: `pip install -r requirements.txt `
-- Start python with server file : `python server.py`
-- Tune to url: `http://localhost:5000`
+- Install dependencies using [npm](https://www.npmjs.com/) javascript package manager: `yarn`
+- Start node server with [nodemon](https://nodemon.io/): `yarn start`
+- Tune to url: `http://localhost:3000`
 
-All boilerplate code managed by flask framework. Routes are defined in server file, static view pages are in templates folder. I have implemented partials concept using HTML. Css and Javascript files are stored in static folder.
+All boilerplate code managed by [express generator](https://expressjs.com/en/starter/generator.html) framework adhering to DRY rule. Routes are defined in routes/index.js file, static view pages are in views folder. I have implemented partials concept to avoid code redundancy in html using EJS view engine. Css and Javascript files are stored in public folder.
+
+## Screenshot
+
+<img src="public/img/screenshot.png">
 
 <div align="center">
 
