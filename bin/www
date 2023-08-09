@@ -1,4 +1,14 @@
-#!/usr/bin/env node
+/*
+ * @Date         : 2023-08-09 14:44:21
+ * @Author       : BDFD,bdfd2005@gmail.com
+ * @Github       : https://github.com/bdfd
+ * @LastEditTime : 2023-08-09 15:06:15
+ * @LastEditors  : BDFD
+ * @Description  :
+ * @FilePath     : \bin\www
+ * Copyright (c) 2023 by BDFD, All Rights Reserved.
+ */
+// #!/usr/bin/env node
 
 /**
  * Module dependencies.
@@ -12,7 +22,7 @@ var http = require("http");
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || "22513");
+var port = normalizePort(process.env.PORT || "3000");
 app.set("port", port);
 console.log(`Server start at Port ${port}...`);
 
