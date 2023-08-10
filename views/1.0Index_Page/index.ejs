@@ -2,7 +2,7 @@
  * @Date         : 2023-08-10 11:13:05
  * @Author       : BDFD,bdfd2005@gmail.com
  * @Github       : https://github.com/bdfd
- * @LastEditTime : 2023-08-10 14:19:48
+ * @LastEditTime : 2023-08-10 15:54:34
  * @LastEditors  : BDFD
  * @Description  : 
  * @FilePath     : \views\1.0Index_Page\index.ejs
@@ -54,17 +54,17 @@ Author: PixelNX
                         </div>
                     </div>
                     <div class="ks-navbar-menu">
-                        <ul class="menu">
+                        <ul class="menu" align="center">
                             <li class="responsive-logo"><a
                                     href="javascript:;"><img
                                         src="/images/logo.png" alt=""></a></li>
-                            <li class="active"><a href="index.html">Home</a>
+                            <li class="active"><a href="/">Home</a>
                             </li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="activity.html">Activity</a></li>
+                            <li><a href="/course">Classes</a></li>
+                            <li><a href="/whyus">Why Us</a></li>
+                            <!-- <li><a href="activity.html">Activity</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="classes.html">Classes</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="contact.html">Contact</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -83,9 +83,6 @@ Author: PixelNX
     </div>
     <!-- about section end -->
     <!-- counter section start -->
-    <div>
-        <% include ./index_partials/03index_counter %>
-    </div>
     <!-- counter section end -->
     <!-- activity section start -->
     <div>
@@ -93,24 +90,16 @@ Author: PixelNX
     </div>
     <!-- activity section end -->
     <!-- gallery section start -->
-    <!-- <div>
-        <% include ./index_partials/05index_gallery %>
-    </div> -->
     <!-- gallery section end -->
     <!-- blog section start -->
-    <!-- <div>
-        <% include ./index_partials/06index_blog %>
-    </div> -->
+    <div>
+        <% include ./index_partials/09index_whyus %>
+    </div>
+    <br /><br />
     <!-- blog section end -->
     <!-- client section start -->
-    <!-- <div>
-        <% include ./index_partials/07index_client %>
-    </div> -->
     <!-- client section end -->
     <!-- partner section start -->
-    <!-- <div>
-        <% include ./index_partials/08index_partner %>
-    </div> -->
     <!-- partner section end -->
     <!-- footer section start -->
     <div>
