@@ -2,7 +2,7 @@
  * @Date         : 2023-08-09 14:44:21
  * @Author       : BDFD,bdfd2005@gmail.com
  * @Github       : https://github.com/bdfd
- * @LastEditTime : 2023-08-09 18:11:58
+ * @LastEditTime : 2023-08-10 16:10:51
  * @LastEditors  : BDFD
  * @Description  :
  * @FilePath     : \routes\index.js
@@ -26,12 +26,16 @@ router.get("/", function (req, res, next) {
 	});
 });
 
-router.get("/index", function (req, res, next) {
-	res.render("index2", { page: "Index", menuId: "index" });
-});
+// router.get("/index", function (req, res, next) {
+// 	res.render("index2", { page: "Index", menuId: "index" });
+// });
 
 router.get("/course", function (req, res, next) {
-	res.render("course", { page: "Key Courses", menuId: "key-courses" });
+	res.render("2.0Course_Page/course", {
+		page: "Key Courses",
+		menuId: "key-courses",
+		layout: "layouts/main_layout",
+	});
 });
 
 router.get("/whyus", function (req, res, next) {
