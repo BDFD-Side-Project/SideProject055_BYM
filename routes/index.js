@@ -2,7 +2,7 @@
  * @Date         : 2023-08-09 14:44:21
  * @Author       : BDFD,bdfd2005@gmail.com
  * @Github       : https://github.com/bdfd
- * @LastEditTime : 2023-08-10 17:05:39
+ * @LastEditTime : 2023-08-14 13:32:18
  * @LastEditors  : BDFD
  * @Description  :
  * @FilePath     : \routes\index.js
@@ -42,6 +42,14 @@ router.get("/whyus", function (req, res, next) {
 	res.render("3.0WhyUs_Page/whyus", {
 		page: "Why Learn with us",
 		menuId: "why-learn-with-us",
+		layout: "layouts/main_layout",
+	});
+});
+
+router.get("/contactus", function (req, res, next) {
+	res.render("4.0ContactUs_Page/contactus", {
+		page: "Contact Us",
+		menuId: "contact-us",
 		layout: "layouts/main_layout",
 	});
 });
