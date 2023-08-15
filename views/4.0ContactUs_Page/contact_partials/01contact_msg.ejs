@@ -59,11 +59,30 @@
         </h3>
     </div>
     <div class="contact-form">
-        <form>
-            <input placeholder="Name" type="text" /><input placeholder="Email"
-                type="email" /><textarea
-                placeholder="Tell us about your project..."
-                rows="4"></textarea><button type="button">SEND </button>
+        <h1>FormSubmit Demo</h1>
+        <form target="_blank"
+            action="https://formsubmit.co/4c8e211dbf9cbcb834b2ca3c6b981eeb"
+            method="POST">
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" name="name" class="form-control"
+                            placeholder="Full Name" required>
+                    </div>
+                    <div class="col">
+                        <input type="email" name="email" class="form-control"
+                            placeholder="Email Address" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" class="form-control"
+                    name="message" rows="10" required></textarea>
+            </div>
+            <input type="hidden" name="_next"
+                value="https://bym-beside-you-mandrain.onrender.com/contact">
+            <button type="submit" class="btn btn-lg btn-dark btn-block">Submit
+                Form</button>
         </form>
     </div>
 </div>
