@@ -385,7 +385,7 @@ p {
 }
 
 .ks-banner-left h4 {
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: var(--ks-theme-color);
@@ -1161,7 +1161,7 @@ p {
     padding-top: 40px;
 }
 
-.ks-blog-content:after {
+/* .ks-blog-content:after {
     content: '';
     width: 100%;
     height: 1px;
@@ -1170,7 +1170,7 @@ p {
     bottom: 60px;
     left: 0;
     right: 0;
-}
+} */
 
 .ks-blog-footer span {
     font-size: 14px;
