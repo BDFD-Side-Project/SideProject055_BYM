@@ -2,7 +2,7 @@
  * @Date         : 2023-08-09 14:44:21
  * @Author       : BDFD,bdfd2005@gmail.com
  * @Github       : https://github.com/bdfd
- * @LastEditTime : 2023-08-16 12:02:18
+ * @LastEditTime : 2023-08-16 12:03:49
  * @LastEditors  : BDFD
  * @Description  :
  * @FilePath     : \README.md
@@ -69,10 +69,6 @@ Reference:
 - Tune to url: `http://localhost:3000`
 
 All boilerplate code managed by [express generator](https://expressjs.com/en/starter/generator.html) framework adhering to DRY rule. Routes are defined in routes/index.js file, static view pages are in views folder. I have implemented partials concept to avoid code redundancy in html using EJS view engine. Css and Javascript files are stored in public folder.
-
-## Screenshot
-
-<img src="public/img/screenshot.png">
 
 <div align="center">
 
