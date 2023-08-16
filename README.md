@@ -2,20 +2,21 @@
  * @Date         : 2023-08-09 14:44:21
  * @Author       : BDFD,bdfd2005@gmail.com
  * @Github       : https://github.com/bdfd
- * @LastEditTime : 2023-08-09 14:57:16
+ * @LastEditTime : 2023-08-16 12:02:18
  * @LastEditors  : BDFD
  * @Description  :
  * @FilePath     : \README.md
  * Copyright (c) 2023 by BDFD, All Rights Reserved.
 -->
 
-# <a href="https://github.com/bdfd"><img height=40 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/4.Stamp/BDFD_Stamp.png" alt="GitHub Followers" /></a>SP055 - BYM - Beside You Mandrain 
+# <a href="https://github.com/bdfd"><img height=40 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/4.Stamp/BDFD_Stamp.png" alt="GitHub Followers" /></a>SP055 - BYM - Beside You Mandrain
 
 <a href="https://github.com/bdfd"><img src="https://img.shields.io/github/followers/bdfd?label=Follow%20Me&logo=github" alt="GitHub Followers" /></a>
 ![ViewCount](https://views.whatilearened.today/views/github/BDFD-Side-Project/SideProject055_BYM.svg?cache=remove)
 ![GitHub top language](https://img.shields.io/github/languages/top/BDFD-Side-Project/SideProject055_BYM?style=flat)
 ![GitHub language count](https://img.shields.io/github/languages/count/BDFD-Side-Project/SideProject055_BYM?style=flat)
 <img height=20 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/7.Color-Icon/Status/On_Progress.svg" alt="bdfd" />
+
 <!-- <img height=20 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/7.Color-Icon/Status/Finish.svg" alt="bdfd" /> -->
 
 <div align="center">
@@ -26,7 +27,7 @@
 
 About This project and the reference link in this repo are for anyone who is interested in working to enter developer world to produce high quality, working style! Check out follow reference link if you think it is interested.
 
-**Project Link:** [BYM - Beside You Mandrain](http://www.google.com/)
+**Project Link:** [BYM - Beside You Mandrain](https://bym-beside-you-mandrain.onrender.com/)
 
 ## Project Details
 
@@ -35,7 +36,7 @@ The Project Page enlisted as follows:
 - [x] **P1-** Index Page
 - [x] **P2-** Key Course
 - [x] **P3-** Why Learn With Us
-
+- [x] **P4-** Contact Us
 
 ## Project Description:
 
@@ -53,7 +54,7 @@ Description: Startup Education Porfolio Website.
 **Projects:** BYM - Beside You Mandrain
 
 **Reference:**  
-Demo: <a href="http://www.google.com/">Demo Website Link</a>  
+Demo: <a href="https://bym-beside-you-mandrain.onrender.com/">Demo Website Link</a>  
 Reference:
 
 - <a href="https://drive.google.com/drive/folders/1F2p4Ec1JqMZiyrkjzS_BzTnBXt2AspVE">Orginal Backup File Resource</a>
@@ -65,7 +66,7 @@ Reference:
 
 - Install dependencies using [npm](https://www.npmjs.com/) javascript package manager: `yarn`
 - Start node server with [nodemon](https://nodemon.io/): `yarn start`
-- Tune to url: `http://localhost:22513`
+- Tune to url: `http://localhost:3000`
 
 All boilerplate code managed by [express generator](https://expressjs.com/en/starter/generator.html) framework adhering to DRY rule. Routes are defined in routes/index.js file, static view pages are in views folder. I have implemented partials concept to avoid code redundancy in html using EJS view engine. Css and Javascript files are stored in public folder.
 
