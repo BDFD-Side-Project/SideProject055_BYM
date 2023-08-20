@@ -387,7 +387,7 @@ p {
 .ks-banner-left h4 {
     font-size: 16px;
     letter-spacing: 1px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: var(--ks-theme-color);
     font-weight: 600;
     background-color: var(--ks-white-color);
