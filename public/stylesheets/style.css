@@ -385,13 +385,14 @@ p {
 }
 
 .ks-banner-left h4 {
-    font-size: 16px;
+    font-size: 25px;
     letter-spacing: 1px;
     /* text-transform: uppercase; */
-    color: var(--ks-theme-color);
+    /* color: var(--ks-theme-color); */
+    color: white;
     font-weight: 600;
-    background-color: var(--ks-white-color);
-    clip-path: polygon(0.5% 0%, 62% 0%, 59% 55%, 62% 100%, 0.5% 100%);
+    /* background-color: var(--ks-white-color); */
+    /* clip-path: polygon(0.5% 0%, 62% 0%, 59% 55%, 62% 100%, 0.5% 100%); */
     padding: 15px 15px 11px 18px;
     max-width: 520px;
     width: 100%;
