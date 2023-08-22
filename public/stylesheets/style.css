@@ -786,7 +786,7 @@ p {
 }
 
 .ks-about-right .ks-paragraph {
-    color: var(--ks-grey-color);
+    /* color: var(--ks-grey-color); */
     margin: 28px 0 40px 0;
 }
 
