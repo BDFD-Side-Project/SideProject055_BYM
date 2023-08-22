@@ -24,6 +24,7 @@
         display: block;
     }
     .ks-toggle-btn {
+        padding-top: inherit;
         display: block;
         position: absolute;
         right: 15px;
