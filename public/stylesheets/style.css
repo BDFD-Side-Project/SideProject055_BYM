@@ -1447,8 +1447,17 @@ p {
     margin-top: 10px;
 }
 
-.ks-footer-form input {
-    height: 40px;
+.ks-footer-form input{
+    width: 100%;
+    background-color: #3a3c4e;
+    color: #6b6d80;
+    border-radius: 6px;
+    border: none;
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+
+.ks-footer-form textarea{
     width: 100%;
     background-color: #3a3c4e;
     color: #6b6d80;
@@ -1459,6 +1468,12 @@ p {
 }
 
 .ks-footer-form input::placeholder {
+    font-size: 14px;
+    color: #6b6d80;
+    font-weight: 400;
+}
+
+.ks-footer-form textarea::placeholder {
     font-size: 14px;
     color: #6b6d80;
     font-weight: 400;
