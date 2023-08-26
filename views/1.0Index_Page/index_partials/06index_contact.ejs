@@ -2,7 +2,7 @@
  * @Date         : 2023-08-26 02:47:36
  * @Author       : BDFD,bdfd2005@gmail.com
  * @Github       : https://github.com/bdfd
- * @LastEditTime : 2023-08-26 10:54:46
+ * @LastEditTime : 2023-08-26 11:08:36
  * @LastEditors  : BDFD
  * @Description  : 
  * @FilePath     : \views\1.0Index_Page\index_partials\06index_contact.ejs
@@ -65,10 +65,10 @@
     function sendEmail() {
         Email.send({
             SecureToken: "a4726dae-4a33-43ca-b913-9db99a03a56d",
-            To: "bdfd2005@gmail.com",
+            To: "support@besideumandarin.com",
             From: "sp055.bym@gmail.com",
             Subject: document.getElementById("subject").value,
-            Body: "New Contact From"
+            Body: "New Contact From from Home Page Contact Form"
                 + "<br> Email: " + document.getElementById("email").value
                 + "<br> Phone: " + document.getElementById("phone").value
                 + "<br> Message: " + document.getElementById("message").value

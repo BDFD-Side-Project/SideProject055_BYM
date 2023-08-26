@@ -2,7 +2,7 @@
  * @Date         : 2023-08-15 13:17:31
  * @Author       : BDFD,bdfd2005@gmail.com
  * @Github       : https://github.com/bdfd
- * @LastEditTime : 2023-08-26 11:02:16
+ * @LastEditTime : 2023-08-26 11:08:34
  * @LastEditors  : BDFD
  * @Description  : 
  * @FilePath     : \views\4.0ContactUs_Page\contact_partials\01contact_message.ejs
@@ -97,10 +97,10 @@
     function sendEmail() {
         Email.send({
             SecureToken: "a4726dae-4a33-43ca-b913-9db99a03a56d",
-            To: "bdfd2005@gmail.com",
+            To: "support@besideumandarin.com",
             From: "sp055.bym@gmail.com",
             Subject: document.getElementById("subject").value,
-            Body: "New Contact From"
+            Body: "New Contact From Contact Page Contact Form"
                 + "<br> Email: " + document.getElementById("email").value
                 + "<br> Phone: " + document.getElementById("phone").value
                 + "<br> Message: " + document.getElementById("message").value
