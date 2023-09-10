@@ -2,7 +2,7 @@
  * @Date         : 2023-08-15 13:17:31
  * @Author       : BDFD,bdfd2005@gmail.com
  * @Github       : https://github.com/bdfd
- * @LastEditTime : 2023-08-26 11:08:34
+ * @LastEditTime : 2023-09-10 13:34:19
  * @LastEditors  : BDFD
  * @Description  : 
  * @FilePath     : \views\4.0ContactUs_Page\contact_partials\01contact_message.ejs
@@ -11,87 +11,78 @@
 <script src="https://kit.fontawesome.com/e2ac9cc532.js"
     crossorigin="anonymous"></script>
 <link rel="stylesheet" href="stylesheets/contact/style.css">
+<br />
+<br />
 <div class="container">
-    <div class="header">
-        <h1>
-            Are you ready to get started?
-        </h1>
-        <p>
-            If you have a question about the opportunities available to
-            you in
-            our programs, feel free to send us a message.
-            <br />We will get
-            back to
-            you as soon as possible.
-        </p>
-        <div>
-            <i class="fas fa-envelope"
-                style="color:rgba(111,209,219,255);font-size: 1.7rem;"></i>
-            <p>
-                support@besideumandarin.com
-            </p>
-        </div>
-        <div>
-            <i class="fas fa-phone-alt"
-                style="color:rgba(111,209,219,255);font-size: 1.7rem;"></i>
-            <p>
-                469-353-1572
-            </p>
-        </div>
-    </div>
-    <!-- <div class="address">
-        <i class="fas fa-map-marker-alt"></i>
-        <h3>
-            8266 Gygax
-        </h3>
-        <h3>
-            New York, USA
-        </h3>
-    </div>
-    <div class="phone">
-        <i class="fas fa-phone-alt"></i>
-        <h3>
-            123 123 1234
-        </h3>
-    </div> -->
-    <!-- <div class="email">
-        <i class="fas fa-envelope"></i>
-        <h3>
-            besideyoumandarin<br />@gmail.com
-        </h3>
-    </div> -->
-    <h1>Contact Us</h1>
-    <form onsubmit="sendEmail(); reset(); return false">
-        <div class="form-group">
-            <div class="form-row">
-                <div class="col" style="padding-top: 1rem;">
-                    <input type="text" name="name" id="name"
-                        class="form-control" placeholder="Full Name" required>
-                </div>
+    <div class="row gy-4">
+        <div class="col-lg-6">
+            <div class="ks-activity-inner">
+                <h1>Contact Us</h1>
+                <form onsubmit="sendEmail(); reset(); return false">
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col" style="padding-top: 1rem;">
+                                <input type="text" name="name" id="name"
+                                    class="form-control" placeholder="Full Name"
+                                    required>
+                            </div>
 
-                <div class="col" style="padding-top: 1rem;">
-                    <input type="email" name="email" id="email"
-                        class="form-control" placeholder="Email Address"
-                        required>
+                            <div class="col" style="padding-top: 1rem;">
+                                <input type="email" name="email" id="email"
+                                    class="form-control"
+                                    placeholder="Email Address" required>
+                            </div>
+                            <div class="col" style="padding-top: 1rem;">
+                                <input type="phone" name="phone" id="phone"
+                                    class="form-control"
+                                    placeholder="Phone Number" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group" style="padding-top: 1rem;">
+                        <textarea placeholder="Your Message"
+                            class="form-control" name="message" id="message"
+                            required></textarea>
+                    </div>
+                    <input type="hidden" name="subject" id="subject"
+                        value="New Student Submission!">
+                    <br />
+                    <button type="submit"
+                        class="btn btn-lg btn-dark btn-block">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="ks-activity-inner">
+                <h1>
+                    Are you ready to get started?
+                </h1>
+                <p align="left">
+                    If you have a question about the opportunities
+                    available to you in our programs, feel free to send us a
+                    message. We will get back to you as soon as possible.
+                </p>
+                <br />
+                <div align="left">
+                    <i class="fas fa-envelope"
+                        style="color:rgba(111,209,219,255);font-size: 1.7rem;"></i>
+                    <p>
+                        support@besideumandarin.com
+                    </p>
                 </div>
-                <div class="col" style="padding-top: 1rem;">
-                    <input type="phone" name="phone" id="phone"
-                        class="form-control" placeholder="Phone Number"
-                        required>
+                <br />
+                <div align="left">
+                    <i class="fas fa-phone-alt"
+                        style="color:rgba(111,209,219,255);font-size: 1.7rem;"></i>
+                    <p>
+                        469-353-1572
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="form-group" style="padding-top: 1rem;">
-            <textarea placeholder="Your Message" class="form-control"
-                name="message" id="message" required></textarea>
-        </div>
-        <input type="hidden" name="subject" id="subject"
-            value="New Student Submission!">
-        <br />
-        <button type="submit"
-            class="btn btn-lg btn-dark btn-block">Submit</button>
-    </form>
+    </div>
 </div>
+
 <script src="/javascripts/contact/smtp.js"></script>
 <script>
     function sendEmail() {
